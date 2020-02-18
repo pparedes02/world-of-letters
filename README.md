@@ -22,20 +22,20 @@ Este proceso toma como entradas las imagenes de las publicaciones. Para la extra
 ### 4) Minería de datos
 En esta etapa se corren distintos clasificadores de machine learning. La base de datos se divide en train(70%) y test(30%).
 #### -Modelo con texto
-o Se toman como entradas los valores creados con el método BoW, Tf-Idf y Word2Vec.
-o Los clasificadores a utilizar son: Regresión Logística, SVM y Redes Neuronales.
+- Se toman como entradas los valores creados con el método BoW, Tf-Idf y Word2Vec.
+- Los clasificadores a utilizar son: Regresión Logística, SVM y Redes Neuronales.
 #### -Modelado con Imagenes
-o Se toman como entradas los valores creados con los descriptores SURF, SIFT y ORB aplicados con el metodo K-Means de 10, 50, 100, 200 y 400.
-o Los clasificadores a utilizar son: Regresión Logística, SVM y Redes Neuronales.
+- Se toman como entradas los valores creados con los descriptores SURF, SIFT y ORB aplicados con el metodo K-Means de 10, 50, 100, 200 y 400.
+- Los clasificadores a utilizar son: Regresión Logística, SVM y Redes Neuronales.
 #### Imagen con CNN
-o Se toman como entradas las imagenes.
-o Los pesos utilizados son de un modelo entrenado VGG16: "Imagenet".
-o Se le agregan otras capas de neuronas para poder clasificar en 2 clases.
+- Se toman como entradas las imagenes.
+- Los pesos utilizados son de un modelo entrenado VGG16: "Imagenet".
+- Se le agregan otras capas de neuronas para poder clasificar en 2 clases.
 ### 5) Interpretacion de los resultados
 Para esta etapa se interpretan los resultados en base al modelo más adecuado. El resultado se da utilizando los parámetros de evaluacion:
-o	Confusión Matrix
-o	Accuracy
-o	Precisión
-o	Recall
-o	Curva de ROC
-o	AUC
+- Confusión Matrix
+- Accuracy
+- Precisión
+- Recall
+- Curva de ROC
+- AUC
