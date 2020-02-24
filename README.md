@@ -11,7 +11,7 @@ En esta etapa se realiza un prepocesamiento a la base de datos para obtener las 
 En esta etapa se aborda la creación de la variable Y y los 3 tipos de modelado: texto, extracción de caracteristicas de la imagen y CNN de la imagen.
 #### -Creacion de variable Y
 "1" se considera como popular y "0" como no popular.
-Una publicación es considerada popular si esta contiene como mínimo 75 comentarios o 12774 likes.
+Una publicación es considerada popular si esta contiene como mínimo 76 comentarios o 12774 likes.
 ![CREACION DE LA VARIABLE Y](https://user-images.githubusercontent.com/60902706/74692027-65f87900-51b3-11ea-9dfa-e64dd03d4af8.png)
 #### -Procesamiento de texto
 Este proceso toma como entradas el título de las publicaciones. Para la obtención de los vectores característicos se realiza serie de pasos de limpieza de datos y luego se utiliazn los metodos BoW, Tf-Idf y Word2Vec.
