@@ -12,7 +12,7 @@ En esta etapa se aborda la creación de la variable Y y los 3 tipos de modelado:
 #### -Creacion de variable Y
 "1" se considera como popular y "0" como no popular.
 Una publicación es considerada popular si esta contiene como mínimo 76 comentarios o 12774 likes.
-![CREACION DE LA VARIABLE Y](https://user-images.githubusercontent.com/60902706/74692027-65f87900-51b3-11ea-9dfa-e64dd03d4af8.png)
+![CREACION DE LA VARIABLE Y](https://user-images.githubusercontent.com/60902706/75167873-0985e400-56f4-11ea-9a8e-cfbf44df93b5.png)
 #### -Procesamiento de texto
 Este proceso toma como entradas el título de las publicaciones. Para la obtención de los vectores característicos se realiza serie de pasos de limpieza de datos y luego se utiliazn los metodos BoW, Tf-Idf y Word2Vec.
 ![TRANSFORMACION DE DATOS - NLP](https://user-images.githubusercontent.com/60902706/74692260-65acad80-51b4-11ea-85d0-a5257dcc7fb6.PNG)
